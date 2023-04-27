@@ -4,4 +4,4 @@ FROM nginx
 MAINTAINER wangcc
 
 # 复制conf文件到路径
-COPY ./conf/nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf
